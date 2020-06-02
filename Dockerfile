@@ -15,7 +15,7 @@ RUN \
 	cd && \
 	mkdir skysource && \
 	cd skysource && \
-	wget -q -O - https://raw.githubusercontent.com/muldjord/skyscraper/master/update_skyscraper.sh && \
+	wget https://raw.githubusercontent.com/muldjord/skyscraper/master/update_skyscraper.sh && \
 	sed -i 's/sudo //g' update_skyscraper.sh && \
 	bash update_skyscraper.sh
 	
