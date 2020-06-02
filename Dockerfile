@@ -14,8 +14,8 @@ RUN \
 	cd && \
 	mkdir skysource && \
 	cd skysource && \
-	wget -q -O - https://raw.githubusercontent.com/muldjord/skyscraper/master/update_skyscraper.sh | bash# ports and volumes
-
+	wget -q -O - https://raw.githubusercontent.com/muldjord/skyscraper/master/update_skyscraper.sh | bash
+	
 # Volumes
 VOLUME /roms
 VOLUME /cache
